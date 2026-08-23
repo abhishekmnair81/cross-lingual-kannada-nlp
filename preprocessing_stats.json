@@ -1,0 +1,10 @@
+{
+    "train_rows": 464298,
+    "val_rows": 2380,
+    "test_rows": 1004,
+    "mean_subwords": 17.75036,
+    "median_subwords": 13,
+    "p95_subwords": 43.0,
+    "recommended_max_length": 128,
+    "coverage_pct": 99.98
+}
