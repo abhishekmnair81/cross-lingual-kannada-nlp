@@ -28,6 +28,8 @@ from src.labels import ID2LABEL, LABEL2ID, get_id2label
 from src.predict import predict_text
 from src.utils import find_project_root, get_device, resolve_path
 
+from contextlib import asynccontextmanager
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -41,11 +43,18 @@ STATIC_DIR = PROJ_ROOT / "static"
 OUTPUTS_DIR = PROJ_ROOT / "outputs"
 CHECKPOINT_DIR = OUTPUTS_DIR / "checkpoints" / "best_model"
 
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Lifespan context manager to load models on startup."""
+    load_model_and_tokenizer()
+    yield
+
 # Initialize FastAPI
 app = FastAPI(
     title="IndicNER API",
     description="Cross-Lingual Named Entity Recognition for Kannada & Telugu with MuRIL",
     version="2.0.0",
+    lifespan=lifespan,
 )
 
 # Enable CORS for flexible integration
@@ -91,11 +100,6 @@ def load_model_and_tokenizer():
     MODEL.to(DEVICE)
     MODEL.eval()
     logger.info(f"Model successfully loaded onto {DEVICE}.")
-
-
-@app.on_event("startup")
-async def startup_event():
-    load_model_and_tokenizer()
 
 
 # Request / Response Schemas
