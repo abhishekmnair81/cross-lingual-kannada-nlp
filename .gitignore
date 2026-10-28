@@ -4,10 +4,12 @@ venv/
 ENV/
 env/
 
-# Python Cache
+# Python Cache & Testing
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
+*.pytest_cache/
 
 # Jupyter Checkpoints
 .ipynb_checkpoints/
@@ -20,3 +22,20 @@ __pycache__/
 # OS Files
 .DS_Store
 Thumbs.db
+
+# Machine Learning Large Artifacts & Checkpoints (>100MB)
+checkpoints/
+**/checkpoints/
+*.safetensors
+*.pt
+*.bin
+*.arrow
+data_cache/
+**/data_cache/
+
+# Runtime Logs
+*.log
+**/run.log
+
+# Root duplicate outputs (official files are in project/outputs/)
+/outputs/

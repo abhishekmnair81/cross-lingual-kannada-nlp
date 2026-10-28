@@ -1,0 +1,644 @@
+{
+  "evaluation_metrics": {
+    "kn_val_full": {
+      "num_sentences": 2380,
+      "truncated_sentences": 0,
+      "overall": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 0.7535674133010465
+      },
+      "per_class": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1570
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 918
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 879
+        }
+      },
+      "default_overall_f1": 0.0,
+      "strict_report_text": "              precision    recall  f1-score   support\n\n         LOC       0.00      0.00      0.00       918\n         ORG       0.00      0.00      0.00       879\n         PER       0.00      0.00      0.00      1570\n\n   micro avg       0.00      0.00      0.00      3367\n   macro avg       0.00      0.00      0.00      3367\nweighted avg       0.00      0.00      0.00      3367\n"
+    },
+    "kn_val_dedup": {
+      "num_sentences": 2310,
+      "truncated_sentences": 0,
+      "overall": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 0.7562759174209658
+      },
+      "per_class": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1499
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 892
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 848
+        }
+      },
+      "default_overall_f1": 0.0,
+      "strict_report_text": "              precision    recall  f1-score   support\n\n         LOC       0.00      0.00      0.00       892\n         ORG       0.00      0.00      0.00       848\n         PER       0.00      0.00      0.00      1499\n\n   micro avg       0.00      0.00      0.00      3239\n   macro avg       0.00      0.00      0.00      3239\nweighted avg       0.00      0.00      0.00      3239\n"
+    },
+    "kn_test_full": {
+      "num_sentences": 1004,
+      "truncated_sentences": 0,
+      "overall": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 0.756292405340337
+      },
+      "per_class": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 614
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 397
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 291
+        }
+      },
+      "default_overall_f1": 0.0,
+      "strict_report_text": "              precision    recall  f1-score   support\n\n         LOC       0.00      0.00      0.00       397\n         ORG       0.00      0.00      0.00       291\n         PER       0.00      0.00      0.00       614\n\n   micro avg       0.00      0.00      0.00      1302\n   macro avg       0.00      0.00      0.00      1302\nweighted avg       0.00      0.00      0.00      1302\n"
+    },
+    "kn_test_dedup": {
+      "num_sentences": 966,
+      "truncated_sentences": 0,
+      "overall": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 0.7574716592236345
+      },
+      "per_class": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 585
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 378
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 277
+        }
+      },
+      "default_overall_f1": 0.0,
+      "strict_report_text": "              precision    recall  f1-score   support\n\n         LOC       0.00      0.00      0.00       378\n         ORG       0.00      0.00      0.00       277\n         PER       0.00      0.00      0.00       585\n\n   micro avg       0.00      0.00      0.00      1240\n   macro avg       0.00      0.00      0.00      1240\nweighted avg       0.00      0.00      0.00      1240\n"
+    },
+    "te_val": {
+      "num_sentences": 2700,
+      "truncated_sentences": 2,
+      "overall": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 0.7514507118399711
+      },
+      "per_class": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1997
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1043
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1033
+        }
+      },
+      "default_overall_f1": 0.0,
+      "strict_report_text": "              precision    recall  f1-score   support\n\n         LOC       0.00      0.00      0.00      1043\n         ORG       0.00      0.00      0.00      1033\n         PER       0.00      0.00      0.00      1997\n\n   micro avg       0.00      0.00      0.00      4073\n   macro avg       0.00      0.00      0.00      4073\nweighted avg       0.00      0.00      0.00      4073\n"
+    },
+    "te_test": {
+      "num_sentences": 844,
+      "truncated_sentences": 1,
+      "overall": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 0.7458589134715626
+      },
+      "per_class": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 598
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 482
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 263
+        }
+      },
+      "default_overall_f1": 0.0,
+      "strict_report_text": "              precision    recall  f1-score   support\n\n         LOC       0.00      0.00      0.00       482\n         ORG       0.00      0.00      0.00       263\n         PER       0.00      0.00      0.00       598\n\n   micro avg       0.00      0.00      0.00      1343\n   macro avg       0.00      0.00      0.00      1343\nweighted avg       0.00      0.00      0.00      1343\n"
+    }
+  },
+  "cross_lingual_transfer": {
+    "kannada_f1": 0.0,
+    "telugu_f1": 0.0,
+    "absolute_f1_gap": 0.0,
+    "relative_f1_gap_pct": 0.0
+  },
+  "error_analysis": {
+    "kn": {
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          1141
+        ],
+        [
+          0,
+          0,
+          0,
+          544
+        ],
+        [
+          0,
+          0,
+          0,
+          542
+        ],
+        [
+          0,
+          0,
+          0,
+          6911
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "PER",
+        "LOC",
+        "ORG",
+        "O"
+      ],
+      "total_errors": 2227,
+      "total_error_sentences": 665,
+      "top_30_patterns_file": "top_30_mispredictions_kn.csv",
+      "wrong_samples_file": "wrong_predictions_kn_100.csv",
+      "top_30_preview": [
+        {
+          "word": ".",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 47
+        },
+        {
+          "word": "ಬಿಜೆಪಿ",
+          "gold": "B-ORG",
+          "pred": "O",
+          "count": 31
+        },
+        {
+          "word": "ಕಾಂಗ್ರೆಸ್",
+          "gold": "B-ORG",
+          "pred": "O",
+          "count": 29
+        },
+        {
+          "word": "ಭಾರತ",
+          "gold": "B-LOC",
+          "pred": "O",
+          "count": 20
+        },
+        {
+          "word": "ಸಿಂಗ್",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 18
+        },
+        {
+          "word": "ಕುಮಾರ್",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 13
+        },
+        {
+          "word": "ಖಾನ್",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 12
+        },
+        {
+          "word": "ಪೊಲೀಸ್",
+          "gold": "I-LOC",
+          "pred": "O",
+          "count": 11
+        },
+        {
+          "word": "ಭಾರತದ",
+          "gold": "B-LOC",
+          "pred": "O",
+          "count": 11
+        },
+        {
+          "word": "ಠಾಣೆಯಲ್ಲಿ",
+          "gold": "I-LOC",
+          "pred": "O",
+          "count": 11
+        },
+        {
+          "word": "ಮೋದಿ",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 10
+        },
+        {
+          "word": "ಮತ್ತು",
+          "gold": "I-ORG",
+          "pred": "O",
+          "count": 10
+        },
+        {
+          "word": "ಬ್ಯಾಂಕ್",
+          "gold": "I-ORG",
+          "pred": "O",
+          "count": 10
+        },
+        {
+          "word": "ಮೋದಿ",
+          "gold": "B-PER",
+          "pred": "O",
+          "count": 9
+        },
+        {
+          "word": "ಗಾಂಧಿ",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 9
+        },
+        {
+          "word": "ಪಾಕಿಸ್ತಾನ",
+          "gold": "B-LOC",
+          "pred": "O",
+          "count": 7
+        },
+        {
+          "word": "ಕೆ",
+          "gold": "B-PER",
+          "pred": "O",
+          "count": 7
+        },
+        {
+          "word": "ರಾಹುಲ್",
+          "gold": "B-PER",
+          "pred": "O",
+          "count": 7
+        },
+        {
+          "word": "ನರೇಂದ್ರ",
+          "gold": "B-PER",
+          "pred": "O",
+          "count": 7
+        },
+        {
+          "word": "ಶ್ರೀ",
+          "gold": "B-PER",
+          "pred": "O",
+          "count": 6
+        },
+        {
+          "word": "ಯೆಹೋವನ",
+          "gold": "B-PER",
+          "pred": "O",
+          "count": 6
+        },
+        {
+          "word": "ದೆಹಲಿ",
+          "gold": "B-LOC",
+          "pred": "O",
+          "count": 6
+        },
+        {
+          "word": "ಉತ್ತರ",
+          "gold": "B-LOC",
+          "pred": "O",
+          "count": 6
+        },
+        {
+          "word": "ಇಂಗ್ಲೆಂಡ್",
+          "gold": "B-LOC",
+          "pred": "O",
+          "count": 6
+        },
+        {
+          "word": "ಸುಪ್ರೀಂ",
+          "gold": "B-ORG",
+          "pred": "O",
+          "count": 6
+        },
+        {
+          "word": "ಕಪೂರ್",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 6
+        },
+        {
+          "word": "ಭಾರತದಲ್ಲಿ",
+          "gold": "B-LOC",
+          "pred": "O",
+          "count": 6
+        },
+        {
+          "word": "ಜಮ್ಮು",
+          "gold": "B-LOC",
+          "pred": "O",
+          "count": 5
+        },
+        {
+          "word": "ಜೆ",
+          "gold": "B-PER",
+          "pred": "O",
+          "count": 5
+        },
+        {
+          "word": "ಅಮಿತ್",
+          "gold": "B-PER",
+          "pred": "O",
+          "count": 5
+        }
+      ]
+    },
+    "te": {
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          1122
+        ],
+        [
+          0,
+          0,
+          0,
+          556
+        ],
+        [
+          0,
+          0,
+          0,
+          516
+        ],
+        [
+          0,
+          0,
+          0,
+          6439
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "PER",
+        "LOC",
+        "ORG",
+        "O"
+      ],
+      "total_errors": 2194,
+      "total_error_sentences": 629,
+      "top_30_patterns_file": "top_30_mispredictions_te.csv",
+      "wrong_samples_file": "wrong_predictions_te_100.csv",
+      "top_30_preview": [
+        {
+          "word": "సింగ్",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 23
+        },
+        {
+          "word": "కాంగ్రెస్",
+          "gold": "B-ORG",
+          "pred": "O",
+          "count": 19
+        },
+        {
+          "word": ".",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 15
+        },
+        {
+          "word": "నరేంద్ర",
+          "gold": "B-PER",
+          "pred": "O",
+          "count": 13
+        },
+        {
+          "word": "బీజేపీ",
+          "gold": "B-ORG",
+          "pred": "O",
+          "count": 13
+        },
+        {
+          "word": "భారత",
+          "gold": "B-LOC",
+          "pred": "O",
+          "count": 12
+        },
+        {
+          "word": "భారత్",
+          "gold": "B-LOC",
+          "pred": "O",
+          "count": 12
+        },
+        {
+          "word": "రామ్",
+          "gold": "B-PER",
+          "pred": "O",
+          "count": 11
+        },
+        {
+          "word": "ఆఫ్",
+          "gold": "I-ORG",
+          "pred": "O",
+          "count": 10
+        },
+        {
+          "word": "చైనా",
+          "gold": "B-LOC",
+          "pred": "O",
+          "count": 9
+        },
+        {
+          "word": "మోదీ",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 8
+        },
+        {
+          "word": "ఢిల్లీ",
+          "gold": "B-LOC",
+          "pred": "O",
+          "count": 8
+        },
+        {
+          "word": "అమెరికా",
+          "gold": "B-LOC",
+          "pred": "O",
+          "count": 8
+        },
+        {
+          "word": "అమిత్",
+          "gold": "B-PER",
+          "pred": "O",
+          "count": 8
+        },
+        {
+          "word": "శాఖ",
+          "gold": "I-ORG",
+          "pred": "O",
+          "count": 7
+        },
+        {
+          "word": "టాటా",
+          "gold": "B-ORG",
+          "pred": "O",
+          "count": 7
+        },
+        {
+          "word": "నేషనల్",
+          "gold": "B-ORG",
+          "pred": "O",
+          "count": 7
+        },
+        {
+          "word": "ఇండియా",
+          "gold": "I-ORG",
+          "pred": "O",
+          "count": 7
+        },
+        {
+          "word": "రావు",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 6
+        },
+        {
+          "word": "ప్రదేశ్",
+          "gold": "I-LOC",
+          "pred": "O",
+          "count": 6
+        },
+        {
+          "word": "పార్టీ",
+          "gold": "I-ORG",
+          "pred": "O",
+          "count": 6
+        },
+        {
+          "word": "షా",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 6
+        },
+        {
+          "word": "నగర్",
+          "gold": "I-LOC",
+          "pred": "O",
+          "count": 6
+        },
+        {
+          "word": "రాహుల్",
+          "gold": "B-PER",
+          "pred": "O",
+          "count": 5
+        },
+        {
+          "word": "శర్మ",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 5
+        },
+        {
+          "word": "వర్మ",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 5
+        },
+        {
+          "word": "రాజ్",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 5
+        },
+        {
+          "word": "బ్యాంక్",
+          "gold": "I-ORG",
+          "pred": "O",
+          "count": 5
+        },
+        {
+          "word": "మెడికల్",
+          "gold": "I-ORG",
+          "pred": "O",
+          "count": 5
+        },
+        {
+          "word": "యాదవ్",
+          "gold": "I-PER",
+          "pred": "O",
+          "count": 5
+        }
+      ]
+    }
+  }
+}

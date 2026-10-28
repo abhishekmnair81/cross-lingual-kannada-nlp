@@ -1,0 +1,101 @@
+sentence,gold,predicted
+"ಸಭೆಯಲ್ಲಿ ಜಿಲ್ಲಾ ಆರೋಗ್ಯ ಮತ್ತು ಕುಟುಂಬ ಕಲ್ಯಾಣ ಇಲಾಖೆ ವೈಧ್ಯಾಧಿಕಾರಿಗಳು , ಸಾರ್ವಜನಿಕ ಶಿಕ್ಷಣ ಇಲಾಖೆ , ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಕಲ್ಯಾಣ ಇಲಾಖೆ ಸಿಬ್ಬಂದಿ ಉಪಸ್ಥಿತರಿದ್ದರು .",O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O B-ORG I-ORG I-ORG O B-ORG I-ORG I-ORG I-ORG I-ORG O O O,O O O O O O O O O O O O O O O O O O O O O
+ಭಾರತವನ್ನು ಪ್ರತಿನಿಧಿಸಿದ್ದ ಪ್ರಿಯದರ್ಶಿನಿ ಚಟರ್ಜಿ ಅಂತಿಮ 20 ಸುಂದರಿಯರ ಸ್ಥಾನವನ್ನು ಗಳಿಸಿದ್ದರು .,B-LOC O B-PER I-PER O O O O O O,O O O O O O O O O O
+ಇನ್ನು ತಮಿಳುನಾಡಿನಲ್ಲಿ ಶೇ .,O B-LOC O O,O O O O
+ಆರೋಪಿಗಳನ್ನು ತಿಹಾರ್ ಜೈಲಿಗೆ ವರ್ಗಾವಣೆ ಮಾಡಲಾಯಿತು,O B-LOC I-LOC O O,O O O O O
+ಕಾರ್ಯಕರ್ತರು ಕಟ್ಟಿ ಬೆಳಿಸಿರುವ ಪಕ್ಷ ಕಾಂಗ್ರೆಸ್ .,O O O O B-ORG O,O O O O O O
+ಸಭಾ ಕಾರ್ಯಕ್ರಮಕ್ಕೆ ಕಂದಾಯ ಸಚಿವ ಆರ್ .,O O O O B-PER O,O O O O O O
+ರಾವ್ ಮುಂಚೂಣಿಯಲ್ಲಿದ್ದರು .,B-PER O O,O O O
+ಗಿರೀಶ್ ಕಾಸರವಳ್ಳಿ ಈ ಚಿತ್ರವನ್ನ ನಿರ್ದೇಶನ ಮಾಡಿದ್ದರು .,B-PER I-PER O O O O O,O O O O O O O
+"ಡೌನ್ "" "" ಮತ್ತು "" "" ಸೌಲ್ಜಾ ಬಾಯ್ ಟೆಲ್",O O O O O O B-PER I-PER O,O O O O O O O O O
+ಈ ಘಟನೆ ಸಂಬಂಧ ಹೊಸಪೇಟೆ ಠಾಣೆಯಲ್ಲಿ ಪ್ರಕರಣ ದಾಖಲಾಗಿದೆ .,O O O B-LOC I-LOC O O O,O O O O O O O O
+ಜಪಾನ್ ಪ್ರಧಾನಮಂತ್ರಿ ಶಿಂಜೋ ಅಬೆ ಮತ್ತು ಫ್ರೆಂಚ್ ಅಧ್ಯಕ್ಷ ಎಮ್ಯಾನ್ಯುಯಲ್ ಮೆಕ್ರಾನ್ ಅವರನ್ನು ವಾರಾಣಸಿ ನಗರ ಹೇಗೆ ಸ್ವಾಗತಿಸಿತು ಎಂಬುದನ್ನು ಪ್ರಧಾನಮಂತ್ರಿಯವರು ಸ್ಮರಿಸಿದರು .,B-LOC O B-PER I-PER O O O B-PER I-PER O B-LOC O O O O O O O,O O O O O O O O O O O O O O O O O O
+ಕಾರ್ಯಕ್ರಮವನ್ನು ಸುಧಾಕರ್ ರಾವ್ ಪೇಜಾವರ ನಿರೂಪಿಸಿದರು .,O B-PER I-PER I-PER O O,O O O O O O
+ಇದರಲ್ಲಿ ಹೆಚ್ಚಿನ ಸಂಖ್ಯೆಯಲ್ಲಿ ಬಿಜೆಪಿ ನಾಯಕರು ಭಾಗಿಯಾಗಿದ್ದಾರೆ .,O O O B-ORG O O O,O O O O O O O
+ರವಿ ಮುರೂರು ಹೇಳಿದ್ದೇನು ?,B-PER I-PER O O,O O O O
+ಸುದ್ದಿ ಸರ್ವೀಸ್,B-ORG I-ORG,O O
+"ಅತ್ಯುತ್ತಮ ನಟಿಃ ಒಲಿವಿಯಾ ಕೋಲ್ಮನ್ , ದಿ ಫೇವರಿಟ್",O O B-PER I-PER O O O,O O O O O O O
+"ಮೈಕ್ರಾ , ಮೈಕ್ರಾ ಆಕ್ಟಿವ್ ಮತ್ತು ಸನ್ನಿ ಮಾದರಿಗಳ ಹೆಸರನ್ನು ನಿಸ್ಸಾನ್ ಕಂಪನಿಯು ತನ್ನ ಅಧಿಕೃತ ವೆಬ್ಸೈಟ್ನಿಂದ ತೆಗೆದುಹಕಲಾಗಿದೆ",O O O O O O O O B-ORG O O O O O,O O O O O O O O O O O O O O
+ಈ ದೇವಸ್ಥಾನದ ಗೋಡೆಯ ಮೇಲೆ ಸೀತಾನ್ವೇಷಣದ ರಾಮ ಕಥಾ ಪ್ರಸಂಗವನ್ನು ಕೆತ್ತಲಾಗಿದೆ,O O O O O B-PER O O O,O O O O O O O O O
+ಕೇಂದ್ರ ಸರ್ಕಾರ ವಿರುದ್ಧ ಜಿಲ್ಲಾ ಕಾಂಗ್ರೆಸ್ ಆಕ್ರೋಶ,B-ORG I-ORG O B-ORG I-ORG O,O O O O O O
+"ಡಿಫೆಂಡರ್ : ದೀಪಾ ಗ್ರೇಸ್ ಎಕ್ಕಾ , ಸುನಿತಾ ಲಾಕ್ರಾ , ಗುರ್ಜೀತ್ ಕೌರ್ , ಸುಶೀಲಾ ಛಾನು ಫುಕ್ರಾಂಬ ( ಉಪ ನಾಯಕಿ ) , ಮೋನಿಕಾ",O O B-PER I-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER I-PER O O O O O B-PER,O O O O O O O O O O O O O O O O O O O O O
+"ಪ್ರಧಾನಿ ಮೋದಿ ಅವರೊಂದಿಗೆ ರಕ್ಷಣಾ ಸಚಿವೆ ನಿರ್ಮಲಾ ಸೀತಾರಾಮನ್ , ಭೂ ಸೇನಾ ಮುಖ್ಯಸ್ಥ ಜನರಲ್ ಬಿಪಿನ್ ರಾವತ್ , ನೌಕಾಪಡೆಯ ಅಡ್ಮಿರಲ್ ಸುನೀಲ್ ಲಾಂಬಾ , ವಾಯುಪಡೆಯ ಏರ್ ಮಾರ್ಷಲ್ ಆರ್ . ಕೆ . ಎಸ್ . ಬದೌರಿಯಾ ಅವರು ಜೊತೆಯಲ್ಲಿದ್ದರು .",O B-PER O O O B-PER I-PER O B-ORG I-ORG O O B-PER I-PER O B-ORG O B-PER I-PER O B-ORG O O B-PER I-PER I-PER I-PER I-PER I-PER I-PER O O O,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+""" "" "" ಪ್ರಜ್ಞಾರವರೆ ಅದು ನಾನೇ . """,O O O B-PER O O O O,O O O O O O O O
+ರಾಷ್ಟ್ರೀಯ ನ್ಯಾಯಾಂಗ ದತ್ತಾಂಶ ಗ್ರಿಡ್,B-ORG I-ORG I-ORG I-ORG,O O O O
+ಕಾಂಗ್ರೆಸ್ ಉಪಾಧ್ಯಕ್ಷ ರಾಹುಲ್ ಗಾಂಧಿ ಜ್ಞಾನವಿಲ್ಲದ ತಜ್ಞಃ ಜೇಟ್ಲಿ,B-ORG O B-PER I-PER O O O,O O O O O O O
+ಇಬ್ಬರು ಉಗ್ರರು ಹತರಾಗಿದ್ದಾರೆ ಸಿಆರ್ಪಿಎಫ್ನ ಅಧಿಕಾರಿಗಳು ತಿಳಿಸಿದ್ದಾರೆ .,O O O B-ORG O O O,O O O O O O O
+ಮೃತರು ಪತ್ನಿ ಬಿಂದು ಹಾಗೂ ಮಗಳು ನಮನ ಅವರನ್ನು ಅಗಲಿದ್ದಾರೆ .,O O B-PER O O B-PER O O O,O O O O O O O O O
+ಘಟನೆ ಉತ್ತರ ಪ್ರದೇಶದ ಅಲಹಪುರ್ ಪ್ರದೇಶದಲ್ಲಿ ನಡೆದಿದೆ .,O B-LOC I-LOC B-LOC I-LOC O O,O O O O O O O
+"ಖೊಗಿರ್ ಎಂಬ ಹೆಸರಿಗೆ ಆಧಾರವಾಗಿದೆsimplified Chinese : 乔戈里峰 . traditional Chinese : 喬戈里峰 . pinyin : Qiáogēlǐ Fēng , ಈ ಹೆಸರಿನಿಂದ ಚೈನೀ ಅಧಿಕಾರಿಗಳು ಅಧಿಕೃತವಾಗಿ ಈ ಶಿಖರವನ್ನು ಕರೆಯುತ್ತಾರೆ .",B-LOC O O O O O B-LOC O O O O B-LOC O O O B-LOC I-LOC O O O O O O O O O O,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+ಪೊಲೀಸ್ ಕಾರ್ಯಾಚರಣೆಯ ವೇಳೆ ನಿಗಮ್ ಅವರಿಗೆ ಸಣ್ಣಪುಟ್ಟ ಗಾಯಗಳಾಗಿದ್ದವು .,O O O B-PER O O O O,O O O O O O O O
+ಇದರೊಂದಿಗೆ ಸರಣಿಯಲ್ಲಿ ಇಂಗ್ಲೆಂಡ್ ವಿರುದ್ಧ ಭಾರತ 1 - 2 ಅಂತರ ಕಡಿಮೆ ಮಾಡಿಕೊಂಡಿದೆ .,O O B-LOC O B-LOC O O O O O O O,O O O O O O O O O O O O
+ಆದಾಮಹವ್ವರು ಏನು ಮಾಡಲಿರುವರು ಎಂಬುದನ್ನು ಯೆಹೋವನು ಮುಂದಾಗಿಯೇ ನಿರ್ಧರಿಸಿದ್ದನೋ ?,B-PER O O O B-PER O O O,O O O O O O O O
+""" "" "" ಮೊಘಲ್ ದೊರೆ ಬಾಬರ್ ಏನು ಮಾಡಿದ್ದ ಆ ನಂತರದಲ್ಲಿ ಏನೆಲ್ಲಾ ಆಯಿತು ಎಂಬುದು ನಮ್ಮ ಕಾಳಜಿಯಲ್ಲಿಲ್ಲ . """,O O O O O B-PER O O O O O O O O O O O,O O O O O O O O O O O O O O O O O
+ಆನಂದ್ ಅಭಿಪ್ರಾಂುುಪಟ್ಟಿದ್ದಾರೆ .,B-PER O O,O O O
+""" ನಾನು ಒಟ್ಟೊವನ್ನು ಪ್ರೀತಿಸುತ್ತೇನೆ "" ಎಂದು ಟ್ರಂಪ್ ಹೇಳಿದ್ದಾರೆ , ಆದರೆ ಉತ್ತರ ಕೋರಿಯನ್ನರು ತಮ್ಮ ಪರಮಾಣು ಕಾರ್ಯಕ್ರಮವನ್ನು ಬಿಟ್ಟುಕೊಡಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವಾಗ ಅವರು "" ಒಂದು ಸೂಕ್ಷ್ಮ ಸಮತೋಲನವನ್ನು "" ಉಳಿಸಿಕೊಳ್ಳಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದಾರೆ .",O O B-PER O O O B-PER O O O B-LOC I-LOC O O O O O O O O O O O O O O,O O O O O O O O O O O O O O O O O O O O O O O O O O
+ಮಹಾರಾಜ ವೀರ್ ವಿಕ್ರಮ್ ಮಾಣಿಕ್ಯ ಕಿಶೋರ್ ದಾನವಾಗಿ ನೀಡಿದ ಭೂಮಿಯಲ್ಲಿ ಅಗರ್ತಲ ವಿಮಾನ ನಿಲ್ದಾಣವನ್ನು 1942ರಲ್ಲಿ ನಿರ್ಮಿಸಲಾಗಿತ್ತು .,O B-PER I-PER I-PER I-PER O O O B-LOC I-LOC I-LOC O O O,O O O O O O O O O O O O O O
+ಜಿ ಸಿಂಘಾಲ್ ತಿಳಿಸಿದ್ದಾರೆ .,B-PER I-PER O O,O O O O
+ಮಂಗಳೂರು ಲೋಕ ಸಭಾ ಸದಸ್ಯ ನಳಿನ್ ಕುಮಾರ್ ಕಟೀಲು ಉದ್ಘಾಟನೆ ಮಾಡಲಿದ್ದಾರೆ .,B-LOC O O O B-PER I-PER B-LOC O O O,O O O O O O O O O O
+ರ್ಕ್ರಾಫ್ಟ್ ಅಪಘಾತ ಮತ್ತು ಘಟನೆಗಳ ತನಿಖೆಗಾಗಿ ಭಾರತದ ಏರ್ಕ್ರಾಫ್ಟ್ ಆ್ಯಕ್ಸಿಡೆಂಟ್ ಇನ್ವೆಸ್ಟಿಗೇಷನ್ ಬ್ಯೂರೊ ( ಎಎಐಬಿ ) ಮತ್ತು ಭೂತಾನ್ನ ಏರ್ ಆಕ್ಸಿಡೆಂಟ್ ಇನ್ವೆಸ್ಟಿಗೇಷನ್ ಯುನಿಟ್ ( ಎಎಐಯು ) ನಡುವೆ ಒಪ್ಪಂದ .,O O O O O B-LOC B-ORG I-ORG I-ORG I-ORG O B-ORG O O B-LOC B-ORG I-ORG I-ORG I-ORG O B-ORG O O O O,O O O O O O O O O O O O O O O O O O O O O O O O O
+►ಆಸ್ಟ್ರೇಲಿಯ ವಿರುದ್ಧ 8 ವಿಕೆಟ್ಗಳ ಸೋಲು,B-LOC O O O O,O O O O O
+"ಕೃಷಿ , ಸಹಕಾರ ಮತ್ತು ರೈತರ ಕಲ್ಯಾಣ ಇಲಾಖೆಯು ರಸಗೊಬ್ಬರಗಳನ್ನು ವಿವೇಚನೆಯಿಂದ ಬಳಸುವ ಆಧಾರದಲ್ಲಿ ಮಣ್ಣು ಪರೀಕ್ಷೆಯನ್ನು ಮಾಡುವುದಕ್ಕೆ ಸಮಗ್ರ ಪ್ರಚಾರಾಂದೋಲನವನ್ನು ಮತ್ತು ಭಾರತೀಯ ಪ್ರಾಕೃತಿಕ ಕೃಷಿ ಪದಾತಿ ( ಬಿ ಿ ೆ ಿಸಹಿತ ಸುರಕ್ಷಿತ ಪೋಷಕಾಂಶಯುಕ್ತ ಆಹಾರ ಉತ್ತೇಜಿಸುವುದಕ್ಕಾಗಿ ಪಂಚಾಯತ್ ರಾಜ್ , ಗ್ರಾಮೀಣಾಭಿವೃದ್ದಿ ಮತ್ತು ಕುಡಿಯುವ ನೀರು ಮತ್ತು ನೈರ್ಮಲ್ಯ ಇಲಾಖೆಗಳೊಂದಿಗೆ ಸಾವಯವ ಕೃಷಿಯನ್ನು ಉತ್ತೇಜಿಸಲು ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಸಂಘಟಿಸಲಿದೆ .",B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"ಮಾನ್ಯ ಇಮ್ರಾನ್ ಖಾನ್ , ಬಹವಲ್ಪುರದಲ್ಲಿ ಕುಳಿತು ಐಎಸ್ಐ ಸಹಾಯದೊಂದಿಗೆ ದಾಳಿಗಳ ಸಂಚು ರೂಪಿಸುವ ಜೈಶ್ ಮುಖ್ಯಸ್ಥ ಮಸೂದ್ ಅಜರ್ ನಿಮ್ಮ ಬಳಿಯೇ ಇದ್ದಾನೆ .",O B-PER I-PER O B-LOC O B-ORG O O O O B-ORG O B-PER I-PER O O O O,O O O O O O O O O O O O O O O O O O O
+"ಅಂದಹಾಗೆ , ಈ ಚಿತ್ರಕ್ಕೆ ಶಿವಕಾರ್ತಿಕ್ ನಿರ್ದೇಶನ ಮಾಡುತ್ತಿದ್ದು , ಸೂರಪ್ಪ ಬಾಬು ನಿರ್ಮಾಣ ಮಾಡುತ್ತಿದ್ದಾರೆ .",O O O O B-PER O O O B-PER I-PER O O O,O O O O O O O O O O O O O
+ಬಂಧಿತರು ಸದ್ಯ ಸಿಸಿಬಿ ಪೋಲೀಸರ ವಶದಲ್ಲಿದ್ದಾರೆ .,O O B-ORG O O O,O O O O O O
+ಆತ ಮೊದಲ ಸಲ ಭಾರತಕ್ಕೆ ಬರುತ್ತಿದ್ದಾನೆ .,O O O B-LOC O O,O O O O O O
+ಈ ಚಿತ್ರವು ಬಾಲಾಜಿ ಮೋಷನ್ ಪಿಕ್ಛರ್ ಬ್ಯಾನರ್ನಲ್ಲಿ ಮೂಡಿ ಬರುತ್ತಿದೆ .,O O B-ORG I-ORG I-ORG O O O O,O O O O O O O O O
+ಚಂದ್ರಕಲಾ ತಿಳಿಸಿದರು .,B-PER O O,O O O
+"ಬಾಲಾ ಕನು ಅವನಿಗೆ - - ಕರ್ತನು ಏನು ಹೇಳಿದ್ದಾನೆ ಅಂದನು . ಅವನು ಸಾಮ್ಯರೂಪವಾಗಿ - - ಬಾಲಾಕನೇ , ಎದ್ದು ಕೇಳು . ಚಿಪ್ಪೋರನ ಮಗನೇ , ನನಗೆ ಕಿವಿಗೊಡು .",O O O O O B-PER O O O O O O O O O O O O O B-PER O O O O O,O O O O O O O O O O O O O O O O O O O O O O O O O
+""" "" "" ಆಲಿಸ್ ತಂದೆಯ ಪಾತ್ರ ಎತ್ತಿ ಮಾಡಲಾಗಿದೆ ನಂತರ ಸಾಹಿತ್ಯ ವಿಮರ್ಶಕರು ಎಂದು ಅಸಾಮಾನ್ಯ ಅಥವಾ ನಿರ್ಗಮನವನ್ನು ವಿಶಿಷ್ಟ ಮಧ್ಯ ಹತ್ತೊಂಬತ್ತನೇ ಶತಮಾನದ ಮಕ್ಕಳ ಮುಖ್ಯಪಾತ್ರಗಳನ್ನು . """,O O O B-PER O O O O O O O O O O O O O O O O O O O,O O O O O O O O O O O O O O O O O O O O O O O
+ಉದ್ಯಮಿ ಮುಸ್ತಾಫ ರಾಜ್ ಜತೆ ನಟಿ ಪ್ರಿಯಾಮಣಿ ಮದುವೆ ?,O B-PER I-PER O O B-PER O O,O O O O O O O O
+"ಪುಣೆಯಲ್ಲಿ ನಡೆದಿದ್ದ ಮೊದಲ ಟೆಸ್ಟ್ ಪಂದ್ಯವನ್ನು ಆಸ್ಟ್ರೇಲಿಯಾ 333 ರನ್ಗಳಿದ್ದ ಗೆದ್ದುಕೊಂಡಿದ್ದರೆ , ಬೆಂಗಳೂರಿನಲ್ಲಿ ನಡೆದ ಎರಡನೇ ಪಂದ್ಯವನ್ನು ಭಾರತ 75 ರನ್ಗಳಿಂದ ಗೆದ್ದುಕೊಂಡಿತು .",B-LOC O O O O B-LOC O O O O B-LOC O O O B-LOC O O O O,O O O O O O O O O O O O O O O O O O O
+""" ಡೆಲ್ ನ 2008 ಸಿಎಸ್ಆರ್ ವರದಿಯನ್ನು "" "" GRI ತಪಾಸಿಸುತ್ತಿದ್ದರು "" "" ಮಾಹಿತಿ "" "" ಅಪ್ಲಿಕೇಶನ್ ಮಟ್ಟ ಬಿ "" "" ಸ್ಥಾನ ಪಡೆಯಿತು . """,O B-ORG O O B-ORG O O O B-ORG O O O O O O O O O O O O O O O,O O O O O O O O O O O O O O O O O O O O O O O O
+"ದೆಹಲಿ , ರಾಜಸ್ಥಾನ ಹೈಕೋರ್ಟ್ ನ ಮುಖ್ಯ ನ್ಯಾಯಮೂರ್ತಿಗಳಾದ ಪ್ರದೀಪ್ ನಂದರಾಜೋಗ್ ಮತ್ತು ರಾಜೇಂದ್ರ ಮೆನನ್ ಅವರ ಹಿರಿತನವನ್ನು ಕಡೆಗಣಿಸಿದ್ದಾರೆ ಎಂದು ಆರೋಪಿಸಿದೆ .",B-LOC O B-ORG I-ORG O O O B-PER I-PER O B-PER I-PER O O O O O O,O O O O O O O O O O O O O O O O O O
+ಮಾರ್ವೆಲ್ ಸ್ಟುಡಿಯೋಸ್ ಶೀಘ್ರದಲ್ಲೇ ಎರಡನೆಯ ಭಾಗವಾದ ಪೇಟಾನ್ ರೀಡ್ ನಿರ್ದೇಶನದ,B-ORG I-ORG O O O B-PER I-PER O,O O O O O O O O
+"ಆಕೆ ತನ್ನ ಸಹೋದರ ವಿಲಿಯಂನೊಂದಿಗೆ ಡರ್ಹಾಮ್ಗೆ ತೆರಳಿದಳು , ನಂತರ , ಅವಳು ಕ್ಯಾನನ್ ಆಫ್ ಡರ್ಹಾಮ್ ಕ್ಯಾಥೆಡ್ರಲ್ ಆಗಿದ್ದರು .",O O O B-PER B-LOC O O O O O O O B-LOC O O O,O O O O O O O O O O O O O O O O
+ಸಂಜಯ್ ದತ್ ಪಾತ್ರದಲ್ಲಿ ರಣಬೀರ್ ಕಪೂರ್ ಕಾಣಿಸಿಕೊಳ್ಳಲಿದ್ದಾರೆ .,B-PER I-PER O B-PER I-PER O O,O O O O O O O
+ಇದಕ್ಕೆ ಕಾಂಗ್ರೆಸ್ ಕಾರ್ಯಕರ್ತರು ಅವಕಾಶ ನೀಡಲ್ಲ,O B-ORG O O O,O O O O O
+ಹಲವಾರು ಸಂದರ್ಭಗಳಲ್ಲಿ ಯೆಹೋವನು ಅಬ್ರಹಾಮನನ್ನೂ ಅವನ ಮನೆಮಂದಿಯನ್ನೂ ಕಾಪಾಡಿ ಉಳಿಸಿದನು .,O O B-PER B-PER O O O O O,O O O O O O O O O
+ಆಸ್ಟ್ರೇಲಿಯಾದ ಡಾನ್ ಬ್ರಾಡ್ಮನ್ 961 ಅಂಕದೊಂದಿಗೆ ಮೊದಲ ಸ್ಥಾನದಲ್ಲಿದ್ದಾರೆ .,B-LOC B-PER I-PER O O O O O,O O O O O O O O
+ಬೆಂಗಳೂರುಃ ಏನ್ ನಡೀತಿದೆ ?,B-LOC O O O,O O O O
+"ಗೋವಾ ಮತ್ತು ಮಹಾರಾಷ್ಟ್ರದ ಕರಾವಳಿ ಪ್ರದೇಶದಲ್ಲಿ ಜನಪ್ರಿಯವಾಗಿರುವ ಇದನ್ನು ತೆಂಗಿನ ಹಾಲು ಮತ್ತು ಮುರುಗಲ ಹಣ್ಣಿನಿಂದ ( ಕೋಕಮ್ , ಅಮ್ಸೋಲ್ ಎಂದೂ ಪರಿಚಿತವಾಗಿದೆ ) ತಯಾರಿಸಲಾಗುತ್ತದೆ .",B-LOC O B-LOC O O O O O O O O O O O O O O O O O O,O O O O O O O O O O O O O O O O O O O O O
+"ರಾಕ್ಲೈನ್ ವೆಂಕಟೇಶ್ , ಈ ಅದ್ಧೂರಿ ಚಿತ್ರದ ನಿರ್ಮಾಪಕ .",B-PER I-PER O O O O O O,O O O O O O O O
+ಸಿಎಟಿ ನೀಡಿದ ತೀರ್ಪು ಏನು ?,B-ORG O O O O,O O O O O
+ಲೋಧಾ ಅವರ ಅಜ್ಜ ಐಎಎಸ್ ಅಧಿಕಾರಿಯಾಗಿದ್ದರು .,B-PER O O O O O,O O O O O O
+ಪಶ್ಚಿಮಬಂಗಾಳ ಪೊಲೀಸರು,B-ORG I-ORG,O O
+ಬೆಂಗಳೂರಿನ 2ನೇ ಟೆಸ್ಟ್ ಡ್ರಾನಲ್ಲಿ ಅಂತ್ಯವಾಯಿತು,B-LOC O O O O,O O O O O
+ಆಕೆ ಭಾರತಕ್ಕೆ ನೆಲೆಯಾಗಿದೆ .,O B-LOC O O,O O O O
+ಜಯಶಂಕರ್ ಧನ್ಯವಾದ ತಿಳಿಸಿದ್ದಾರೆ .,B-PER O O O,O O O O
+ದೇವರು ದೊಡ್ಡವನು .,B-PER O O,O O O
+ಯೇಸುವಿನ ಜನನದ ದಿನಾಂಕ,B-PER O O,O O O
+ನಿಖಿಲ್ ಎಲ್ಲಿದ್ದಾರೆ ?,B-PER O O,O O O
+ಬಿಜೆಪಿ ಸರಕಾರ ಪತನವಾಗುತ್ತದೆ .,B-ORG O O O,O O O O
+ಸಾಗರ್ ಹೇಳುತ್ತಾರೆ .,B-PER O O,O O O
+ಗೌಡ ನಗಾಡಿದ .,B-PER O O,O O O
+ವಿಂಡೀಸ್ ವಿರುದ್ಧ ಭರ್ಜರಿ ಜಯಗಳಿಸಿದ ಟೀಂ ಇಂಡಿಯಾ,B-LOC O O O O B-LOC,O O O O O O
+ಬಾಲಿವುಡ್ ನ ಬಿಗ್ ಬಿ ಖ್ಯಾತಿಯ ನಟ ಅಮಿತಾಭ್ ಬಚ್ಚನ್ ತಮ್ಮ ಇಡೀ ಕುಟುಂಬದೊಂದಿಗೆ ಪ್ರಖ್ಯಾತ ಬಂಗಲೆಗಳಲ್ಲಿ ವಾಸಿಸುತ್ತಾರೆ .,O O B-PER I-PER O O B-PER I-PER O O O O O O O,O O O O O O O O O O O O O O O
+ಈ ಕನಸನ್ನು ಭಾರತ ಸಾಕಾರಗೊಳಿಸುತ್ತದೆ ಎಂಬ ಸಂಪೂರ್ಣ ನಂಬಿಕೆ ನನಗಿದೆ .,O O B-LOC O O O O O O,O O O O O O O O O
+"ಏರ್ ಇಂಡಿಯಾ ಅಧ್ಯಕ್ಷ ಮತ್ತು ವ್ಯವಸ್ಥಾಪಕ ನಿರ್ದೇಶಕ ಅಶ್ವಾನಿ ಲೋಹಾನಿ ಅವರು ಮಾತನಾಡಿ , ಏರ್ ಇಂಡಿಯಾ ವಿಮಾನಗಳಿಗೆ ಇದರಿಂದ ಯಾವುದೇ ತೊಂದರೆಯಾಗಿಲ್ಲ .",B-ORG I-ORG O O O O B-PER I-PER O O O B-ORG I-ORG O O O O O,O O O O O O O O O O O O O O O O O O
+ಸಿಬಿಎಸ್ಇ ಪ್ರಾಯೋಗಿಕ ಪರೀಕ್ಷೆ,B-ORG O O,O O O
+ಅಮೆರಿಕದೊಂದಿಗೆ ಹೊಂದಾಣಿಕೆಗೆ ಮುಂದಾಯ್ತಾ ಚೀನಾ ?,B-LOC O O B-LOC O,O O O O O
+ಚಿತ್ರದ ನಿರ್ದೇಶನ ಪಿ . ವಾಸು ಅವರದು .,O O B-PER I-PER I-PER O O,O O O O O O O
+ಮೋದಿಯವರದ್ದು ಸ್ಥಿರ ಸರ್ಕಾರ .,B-PER O O O,O O O O
+"ಎಸ್ - ಕ್ರಾಸ್ ಕಾರಿನ ಒಳಭಾಗವು , ಹೊಸ ಟ್ರಿಮ್ಸ್ ಮತ್ತು ನವೀಕರಿಸಿದ ಡ್ಯಾಶ್ಬೋರ್ಡ್ ಲೇಔಟ್ ಪಡೆದುಕೊಂಡಿದ್ದು , ಆಪಲ್ ಕಾರ್ಪ್ಲೇ ಮತ್ತು ಆಂಡ್ರಾಯ್ಡ್ ಆಟೋನಂತಹ ಸಂಪರ್ಕ ವೈಶಿಷ್ಟ್ಯಗಳೊಂದಿಗೆ ಇನ್ಫೋಟೈನ್ಮೆಂಟ್ ಸಿಸ್ಟಮ್ ನೋಡಬಹುದಾಗಿದೆ",O O O O O O O O O O O O O O B-ORG O O O O O O O O O,O O O O O O O O O O O O O O O O O O O O O O O O
+ಇದೇ ವೇಳೆ ಅವರಿಗೆ ಕೇರಳ ಸರ್ಕಾರದ,O O O B-LOC O,O O O O O
+ಪಕ್ಷದ ರಾಜ್ಯ ಉಸ್ತುವಾರಿ ಮಲ್ಲಿಕಾರ್ಜುನ್ ಖರ್ಗೆ ಶೀಘ್ರದಲ್ಲೇ ಸೋನಿಯಾ ಗಾಂಧಿಯವರಿಗೆ ರಾಜಕೀಯ ಪರಿಸ್ಥಿತಿ ಬಗ್ಗೆ ಮಾಹಿತಿ ನೀಡಲಿದ್ದಾರೆ .,O O O B-PER I-PER O B-PER I-PER O O O O O O,O O O O O O O O O O O O O O
+ಉನ್ನತ ನ್ಯಾಯಾಲಯದ ನಿರ್ದೇಶನವನ್ನು ಉಲ್ಲೇಖಿಸಿ ಈ ದೇವಾಲಯವನ್ನು ದೆಹಲಿ ಅಭಿವೃದ್ಧಿ ಪ್ರಾಧಿಕಾರ ( ಡಿಡಿಎ ) ನೆಲಸಮ ಮಾಡಿದೆ .,O O O O O O B-ORG I-ORG I-ORG O B-ORG O O O O,O O O O O O O O O O O O O O O
+"ಜಮ್ಮು - ಕಾಶ್ಮೀರ , ಉತ್ತರಾಖಂಡ , ಹರಿಯಾಣ , ಉತ್ತರಪ್ರದೇಶ , ಬಿಹಾರ , ಮೇಘಾಲಯ , ಛತ್ತೀಸ್ಗಢ , ಪಶ್ಚಿಮ ಬಂಗಾಳ , ಪಂಜಾಬ್ ಹಾಗೂ ಮಹಾರಾಷ್ಟ್ರ ರಾಜ್ಯ ಸರ್ಕಾರಗಳಿಗೆ ಸುಪ್ರೀಂಕೋರ್ಟ್ ಈ ನಿರ್ದೇಶನ ನೀಡಿದೆ .",B-LOC I-LOC I-LOC O B-LOC O B-LOC O B-LOC O B-LOC O B-LOC O B-LOC O B-LOC I-LOC O B-LOC O B-LOC O O O O O O O,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+ಶಿವಸೇನೆ ಕೇವಲ 56 ಶಾಸಕರನ್ನು ಹೊಂದಿದೆ .,B-ORG O O O O O,O O O O O O
+ವೈಎಸ್ಸಾರ್ ಕಾಂಗ್ರೆಸ್ ಮುಖ್ಯಸ್ಥ ಜಗನ್ಮೋಹನ್ ರೆಡ್ಡಿ,B-ORG I-ORG O B-PER I-PER,O O O O O
+"ಮಾತೇ ಮಹಾದೇವಿ , ಪೀಠಾಧ್ಯಕ್ಷೆ , ಬಸವ ಧರ್ಮ ಪೀಠ",B-PER I-PER O O O B-ORG I-ORG I-ORG,O O O O O O O O
+ಪುಟಿನ್ ಪ್ರತಿಸ್ಪರ್ಧಿ ಕಮ್ಯುನಿಸ್ಟ್ ಪಕ್ಷದ ಪವೆಲ್ ಗ್ರುಡಿನಿನ್ ಶೇ 12ರಷ್ಟು ಮತಗಳನ್ನು ಗಳಿಸಿದ್ದಾರೆ .,B-PER O B-ORG O B-PER I-PER O O O O O,O O O O O O O O O O O
+ಕಾಂಗ್ರೆಸ್ ಜೊತೆಗೆ ಮೈತ್ರಿ ಇಲ್ಲ : ಕುಮಾರಸ್ವಾಮಿ,B-ORG O O O O B-PER,O O O O O O
+""" "" "" ಮಯಾಂಕ್ ಅವರ ಭವಿಷ್ಯಕ್ಕೆ ಶುಭ ಕೋರುತ್ತೇವೆ . """,O O O B-PER O O O O O O,O O O O O O O O O O
+ವಿಕಿಲೀಕ್ಸ್,B-ORG,O
+"ಅಪ್ಪಅಮ್ಮನ 40 ವಯಸ್ಸೆಲ್ಲಿ , ನನ್ನ 15 ವಯಸ್ಸೆಲ್ಲಿ . "" - ಅನಂತ್ .",O O O O O O O O O O B-PER O,O O O O O O O O O O O O
+"ಈ ಬಾರಿಯ ಪಿಬಿಎಲ್ ನಲ್ಲಿ ಅಹ್ಮದಬಾದ್ ಸ್ಮ್ಯಾಷ್ ಮಾಸ್ಟರ್ಸ್ , ಅವಧೆ ವಾರಿಯರ್ಸ್ , ಬೆಂಗಳೂರು ರ್ಯಾಪ್ಟರ್ಸ್ , ಚೆನ್ನೈ ಸ್ಮ್ಯಾಷರ್ಸ್ , ಡೆಲ್ಲಿ ಡ್ಯಾಶರ್ಸ್ , ಹೈದರಾಬಾದ್ ಹಂಟರ್ಸ್ , ಮುಂಬೈ ರಾಕೆಟ್ಸ್ , ನಾರ್ತ್ ಈಸ್ಟರ್ನ್ ವಾರಿಯರ್ಸ್ ಮತ್ತು ಪೂಣೆ 7 ಏಸರ್ಸ್ ತಂಡಗಳು ಕಾದಾಡಲಿವೆ .",O O O O B-ORG I-ORG I-ORG O B-ORG I-ORG O B-ORG I-ORG O B-ORG I-ORG O B-ORG I-ORG O B-ORG I-ORG O B-ORG I-ORG O B-ORG I-ORG I-ORG O B-ORG I-ORG I-ORG O O O,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+ಯೇಸು ಅದೇ ತರಹದ ಪ್ರೀತಿಯನ್ನು ತೋರಿಸಿದನು .,B-PER O O O O O,O O O O O O
+ಐಪಿಸಿ ಸೆಕ್ಷನ್ 304 ( ಬಿ ) ಅಡಿ ಪೊಲೀಸರು ದೂರು ದಾಖಲಿಸಿದ್ದಾರೆ .,B-ORG O O O O O O O O O O,O O O O O O O O O O O
+ಇನ್ನು ಚಿತ್ರದಲ್ಲಿ ಸರ್ಕಾರ್ ಎಂಬ ಪಾತ್ರದಲ್ಲಿ ಸುನೀಲ್ ಶೆಟ್ಟಿ ಅಬ್ಬರಿಸಲಿದ್ದಾರೆ .,O O B-PER O O B-PER I-PER O O,O O O O O O O O O
+ಪ್ರಕರಣ ಸಂಬಂಧ ಗಾಂಧಿಗಂಜ್ ಠಾಣೆಯಲ್ಲಿ ಪ್ರಕರಣ ದಾಖಲಾಗಿದೆ .,O O B-LOC I-LOC O O O,O O O O O O O
+ಫಜಿಲ್ಪುರ್ ರಿಸರ್ವ್ ಅರಣ್ಯ ಪ್ರದೇಶ,B-LOC I-LOC I-LOC I-LOC,O O O O

@@ -1,0 +1,29 @@
+{
+  "labels": [
+    "O",
+    "B-PER",
+    "I-PER",
+    "B-LOC",
+    "I-LOC",
+    "B-ORG",
+    "I-ORG"
+  ],
+  "label2id": {
+    "O": 0,
+    "B-PER": 1,
+    "I-PER": 2,
+    "B-LOC": 3,
+    "I-LOC": 4,
+    "B-ORG": 5,
+    "I-ORG": 6
+  },
+  "id2label": {
+    "0": "O",
+    "1": "B-PER",
+    "2": "I-PER",
+    "3": "B-LOC",
+    "4": "I-LOC",
+    "5": "B-ORG",
+    "6": "I-ORG"
+  }
+}

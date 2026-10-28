@@ -1,0 +1,47 @@
+# Configuration for IndicNER (Kannada MuRIL NER with Telugu Zero-Shot Transfer)
+
+model:
+  name_or_path: "google/muril-base-cased"
+  max_length: 128
+  use_fast_tokenizer: true
+
+data:
+  kn_train_path: "../kn_preprocessed_train.csv"
+  kn_val_path: "../kn_preprocessed_val.csv"
+  kn_test_path: "../kn_preprocessed_test.csv"
+  te_val_path: "../te_val.csv"
+  te_test_path: "../te_test.csv"
+  cache_dir: "outputs/data_cache"
+
+training:
+  learning_rate: 3.0e-5
+  epochs: 3
+  per_device_train_batch_size: 32
+  per_device_eval_batch_size: 64
+  weight_decay: 0.01
+  warmup_ratio: 0.06
+  lr_scheduler_type: "linear"
+  max_grad_norm: 1.0
+  gradient_accumulation_steps: 1
+  seed: 42
+  eval_steps: 2000
+  save_steps: 2000
+  save_total_limit: 2
+  early_stopping_patience: 3
+  metric_for_best_model: "f1"
+  group_by_length: true
+
+debug:
+  train_samples: 2000
+  epochs: 1
+  eval_steps: 50
+  save_steps: 50
+
+outputs:
+  output_dir: "outputs"
+  checkpoints_dir: "outputs/checkpoints"
+  figures_dir: "outputs/figures"
+  labels_file: "outputs/labels.json"
+  metrics_json: "outputs/metrics.json"
+  metrics_md: "outputs/metrics.md"
+  run_log: "outputs/run.log"

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IndicNER: Multilingual Kannada & Telugu NER</title>
+  <link rel="stylesheet" href="/static/style.css?v=2">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="/" class="brand">
+        <div class="brand-icon">
+          <svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+        </div>
+        <div>
+          <div class="brand-title">IndicNER <span class="brand-badge">MuRIL</span></div>
+        </div>
+      </a>
+      <div class="header-meta">
+        <div class="badge-tag">
+          <span class="dot"></span>
+          <span>Kannada Fine-Tuned</span>
+        </div>
+        <div class="badge-tag">
+          <span>Telugu Zero-Shot Ready</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">Multilingual Dravidian Named Entity Recognition</h1>
+      <p class="hero-subtitle">
+        Fine-tuned on Google's MuRIL for <strong>Kannada</strong> with zero-shot cross-lingual transfer on <strong>Telugu</strong>.
+      </p>
+      <div class="legend-bar">
+        <span class="legend-item per">
+          <svg width="14" height="14" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
+          PER (Person)
+        </span>
+        <span class="legend-item loc">
+          <svg width="14" height="14" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+          LOC (Location)
+        </span>
+        <span class="legend-item org">
+          <svg width="14" height="14" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4zm3 1h2v2H7V5zm4 0h2v2h-2V5zm-4 4h2v2H7V9zm4 0h2v2h-2V9zm-4 4h2v2H7v-2zm4 0h2v2h-2v-2z" clip-rule="evenodd"></path></svg>
+          ORG (Organization)
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Application Workspace (Two-Column) -->
+  <main class="app-container">
+    <div class="workspace-grid">
+
+      <!-- LEFT COLUMN: Input & Controls -->
+      <div class="panel-card">
+        <div class="panel-header">
+          <span class="panel-title">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+            </svg>
+            Text Editor & Controls
+          </span>
+          <span id="scriptBadge" class="script-tag script-idle">Ready</span>
+        </div>
+
+        <div class="panel-body">
+          <!-- Textarea Input -->
+          <div class="textarea-wrapper">
+            <textarea
+              id="inputText"
+              class="input-textarea"
+              placeholder="ಇಲ್ಲಿ ಕನ್ನಡ ಅಥವಾ తెలుగు వాక్యాన్ని నమోదు చేయండి..."
+              rows="5"
+            ></textarea>
+            <div class="textarea-footer">
+              <span id="wordCharCount">0 words &bull; 0 characters</span>
+              <span style="font-size: 0.75rem;">Supports Kannada &amp; Telugu</span>
+            </div>
+          </div>
+
+          <!-- Clickable Examples -->
+          <div class="examples-section">
+            <span class="section-label">Clickable Example Sentences</span>
+            <div class="example-chips">
+              <button class="example-chip" data-text="ನಿರ್ದೇಶಕರುಃ ಶಿವಗಣೇಶ್">
+                <span class="chip-lang">KN</span>
+                <span>ನಿರ್ದೇಶಕರುಃ ಶಿವಗಣೇಶ್</span>
+              </button>
+              <button class="example-chip" data-text="ಬೆಂಗಳೂರಿನಲ್ಲಿ ಇಸ್ರೋ ಕಚೇರಿ ಇದೆ">
+                <span class="chip-lang">KN</span>
+                <span>ಬೆಂಗಳೂರಿನಲ್ಲಿ ಇಸ್ರೋ ಕಚೇರಿ ಇದೆ</span>
+              </button>
+              <button class="example-chip" data-text="ಕೇಂದ್ರ ಗೃಹ ಸಚಿವ ಅಮಿತ್ ಶಾ ನವದೆಹಲಿಯಲ್ಲಿ ಸಭೆ ನಡೆಸಿದರು .">
+                <span class="chip-lang">KN</span>
+                <span>ಅಮಿತ್ ಶಾ ನವದೆಹಲಿಯಲ್ಲಿ...</span>
+              </button>
+              <button class="example-chip" data-text="హైదరాబాదులో గూగుల్ కార్యాలయం ఉంది">
+                <span class="chip-lang">TE</span>
+                <span>హైదరాబాదులో గూగుల్...</span>
+              </button>
+              <button class="example-chip" data-text="నరేంద్ర మోదీ తిరుపతిలో పర్యటించారు">
+                <span class="chip-lang">TE</span>
+                <span>నరేంద్ర మోదీ తిరుపతిలో...</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Enhanced Controls: Slider & Checkboxes -->
+          <div class="controls-group">
+            <div class="slider-row">
+              <div class="slider-header">
+                <span>Confidence Filter Threshold</span>
+                <span id="sliderValDisplay" class="slider-val">15%</span>
+              </div>
+              <input
+                type="range"
+                id="confSlider"
+                class="custom-range"
+                min="0.0"
+                max="1.0"
+                step="0.01"
+                value="0.15"
+              >
+            </div>
+
+            <div class="checkbox-row">
+              <label class="custom-checkbox">
+                <input type="checkbox" id="checkPER" checked>
+                <span>Person (PER)</span>
+              </label>
+              <label class="custom-checkbox">
+                <input type="checkbox" id="checkLOC" checked>
+                <span>Location (LOC)</span>
+              </label>
+              <label class="custom-checkbox">
+                <input type="checkbox" id="checkORG" checked>
+                <span>Organization (ORG)</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="action-buttons">
+            <button id="extractBtn" class="btn-primary">
+              <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+              <span>Extract Named Entities</span>
+            </button>
+            <button id="clearBtn" class="btn-secondary">Clear</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: Visual Results & Stats -->
+      <div class="panel-card">
+        <div class="panel-header">
+          <span class="panel-title">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+            Extraction Results &amp; Analytics
+          </span>
+          <button id="copyBtn" class="btn-secondary" style="flex: 0 0 auto; width: auto; max-width: 130px; padding: 6px 14px; font-size: 0.8rem; cursor: pointer;">
+            Copy Results
+          </button>
+        </div>
+
+        <div class="panel-body">
+          <!-- KPI Summary Metrics Grid -->
+          <div class="kpi-row">
+            <div class="kpi-box total">
+              <span class="kpi-label">Entities</span>
+              <span id="kpiTotalEntities" class="kpi-val">0</span>
+            </div>
+            <div class="kpi-box per">
+              <span class="kpi-label">Person</span>
+              <span id="kpiPER" class="kpi-val">0</span>
+            </div>
+            <div class="kpi-box loc">
+              <span class="kpi-label">Location</span>
+              <span id="kpiLOC" class="kpi-val">0</span>
+            </div>
+            <div class="kpi-box org">
+              <span class="kpi-label">Org</span>
+              <span id="kpiORG" class="kpi-val">0</span>
+            </div>
+          </div>
+
+          <!-- Highlighted Text Output -->
+          <div>
+            <span class="section-label" style="display: block; margin-bottom: 6px;">Visual Entity Mentions</span>
+            <div id="highlightContainer" class="highlight-container">
+              <div class="highlight-placeholder">
+                Enter or select a sentence above and click "Extract Named Entities"
+              </div>
+            </div>
+          </div>
+
+          <!-- Sub-Tabs Navigation for Deep-Dives -->
+          <div>
+            <div class="subtabs-bar">
+              <button class="subtab-btn active" data-tab="tabTokens">Token Diagnostic Table</button>
+              <button class="subtab-btn" data-tab="tabSubwords">Subword Breakdown</button>
+              <button class="subtab-btn" data-tab="tabBenchmarks">Evaluation &amp; Figures</button>
+              <button class="subtab-btn" data-tab="tabJson">Raw JSON</button>
+            </div>
+
+            <!-- Subtab 1: Tokens Table -->
+            <div id="tabTokens" class="subtab-content active" style="margin-top: 10px;">
+              <div class="table-wrapper">
+                <table class="data-table">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Token</th>
+                      <th>Predicted Tag</th>
+                      <th>Confidence</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tokenTableBody">
+                    <tr>
+                      <td colspan="5" style="text-align: center; color: var(--text-light); padding: 24px;">No tokens analyzed yet</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Subtab 2: Subwords Table -->
+            <div id="tabSubwords" class="subtab-content" style="margin-top: 10px;">
+              <div class="table-wrapper">
+                <table class="data-table">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Word</th>
+                      <th>WordPiece Decomposition</th>
+                      <th>Count</th>
+                      <th>First Subword</th>
+                    </tr>
+                  </thead>
+                  <tbody id="subwordTableBody">
+                    <tr>
+                      <td colspan="5" style="text-align: center; color: var(--text-light); padding: 24px;">No subwords analyzed yet</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Subtab 3: Benchmark Analytics & Generated Figures -->
+            <div id="tabBenchmarks" class="subtab-content" style="margin-top: 10px;">
+              <div class="benchmark-metrics-grid">
+                <div class="benchmark-box">
+                  <div class="label">Kannada Test Accuracy</div>
+                  <div class="val">75.4%</div>
+                </div>
+                <div class="benchmark-box">
+                  <div class="label">Telugu Zero-Shot Acc</div>
+                  <div class="val">84.1%</div>
+                </div>
+                <div class="benchmark-box">
+                  <div class="label">Architecture / Model</div>
+                  <div class="val" style="font-size: 0.95rem;">MuRIL Base Cased</div>
+                </div>
+              </div>
+
+              <div class="figures-grid">
+                <div class="figure-card">
+                  <a href="/outputs/figures/confusion_matrix_heatmap.png" target="_blank">
+                    <img src="/outputs/figures/confusion_matrix_heatmap.png" alt="Overall Confusion Matrix" loading="lazy">
+                  </a>
+                  <div class="caption">
+                    <span>Overall Confusion Matrix</span>
+                    <a href="/outputs/figures/confusion_matrix_heatmap.png" target="_blank">View ↗</a>
+                  </div>
+                </div>
+
+                <div class="figure-card">
+                  <a href="/outputs/figures/confusion_matrix_heatmap_kn.png" target="_blank">
+                    <img src="/outputs/figures/confusion_matrix_heatmap_kn.png" alt="Kannada Confusion Matrix" loading="lazy">
+                  </a>
+                  <div class="caption">
+                    <span>Kannada Test Matrix</span>
+                    <a href="/outputs/figures/confusion_matrix_heatmap_kn.png" target="_blank">View ↗</a>
+                  </div>
+                </div>
+
+                <div class="figure-card">
+                  <a href="/outputs/figures/confusion_matrix_heatmap_te.png" target="_blank">
+                    <img src="/outputs/figures/confusion_matrix_heatmap_te.png" alt="Telugu Zero-Shot Matrix" loading="lazy">
+                  </a>
+                  <div class="caption">
+                    <span>Telugu Zero-Shot Matrix</span>
+                    <a href="/outputs/figures/confusion_matrix_heatmap_te.png" target="_blank">View ↗</a>
+                  </div>
+                </div>
+
+                <div class="figure-card">
+                  <a href="/outputs/figures/training_validation_loss_curve.png" target="_blank">
+                    <img src="/outputs/figures/training_validation_loss_curve.png" alt="Loss Curve" loading="lazy">
+                  </a>
+                  <div class="caption">
+                    <span>Train/Val Loss Curve</span>
+                    <a href="/outputs/figures/training_validation_loss_curve.png" target="_blank">View ↗</a>
+                  </div>
+                </div>
+
+                <div class="figure-card">
+                  <a href="/outputs/figures/per_class_f1_comparison.png" target="_blank">
+                    <img src="/outputs/figures/per_class_f1_comparison.png" alt="Per-Class F1 Comparison" loading="lazy">
+                  </a>
+                  <div class="caption">
+                    <span>Per-Class F1 Comparison</span>
+                    <a href="/outputs/figures/per_class_f1_comparison.png" target="_blank">View ↗</a>
+                  </div>
+                </div>
+
+                <div class="figure-card">
+                  <a href="/outputs/figures/subword_length_histogram.png" target="_blank">
+                    <img src="/outputs/figures/subword_length_histogram.png" alt="Subword Length Histogram" loading="lazy">
+                  </a>
+                  <div class="caption">
+                    <span>Subword Length Histogram</span>
+                    <a href="/outputs/figures/subword_length_histogram.png" target="_blank">View ↗</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Subtab 4: JSON Box -->
+            <div id="tabJson" class="subtab-content" style="margin-top: 10px;">
+              <pre id="jsonPayload" class="json-box">{}</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Toast Container -->
+  <div id="toast" class="toast">Copied to clipboard!</div>
+
+  <!-- JavaScript Application Logic -->
+  <script src="/static/app.js?v=2"></script>
+</body>
+</html>

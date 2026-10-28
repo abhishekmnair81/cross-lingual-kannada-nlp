@@ -1,0 +1,101 @@
+sentence,gold,predicted
+ఆ సినిమాలో నటించిన బొమన్ ఇరానీకు కూడా ఈ సినిమాలో ఓ పాత్రకు తీసుకున్నట్లు సమాచారం .,O O O B-PER I-PER O O O O O O O O,O O O O O O O O O O O O O
+ఇది ప్రసిద్ధ రచయిత చలం నివాసానికి చాలా దగ్గరగా ఉంది,O O O B-PER O O O O,O O O O O O O O
+మృతులు గుంటూరు జిల్లా నరసరావుపేటకు చెందిన వారిగా గుర్తించారు .,O B-LOC O B-LOC O O O O,O O O O O O O O
+"శివసేన , టీడీపీ బయటకు వచ్చేశాయి .",B-ORG O B-ORG O O O,O O O O O O
+అటు కాంగ్రెస్ కూడా ఆజమ్ఖాన్ వ్యాఖ్యలను ఖండించింది .,O B-ORG O B-PER O O O,O O O O O O O
+ప్రపంచ కప్ 2019 : కోహ్లీని పొగుడుతూ ధోనిని విమర్శించిన సచిన్ టెండూల్కర్,O O O O B-PER O B-PER O B-PER I-PER,O O O O O O O O O O
+"కుల్దీప్ యాదవ్ , ఉమేశ్ యాదవ్లు అద్భుతంగా బౌలింగ్ చేస్తు న్నారు .",B-PER I-PER O B-PER I-PER O O O O O,O O O O O O O O O O
+ఉన్నపళంగా చెన్నై నుంచి ఢిల్లీకి బయలుదేరారు .,O B-LOC O B-LOC O O,O O O O O O
+కాంగ్రెస్ లో అంతర్గత ప్రజాస్వామ్యం ఎక్కువంటూ ఉంటారు .,B-ORG O O O O O O,O O O O O O O
+"ఈ చిత్రాన్ని 14 రీల్స్ ప్లస్ , మైత్రీ మూవీ మేకర్స్ , జీఎంబీ ఎంటర్ టైన్ మెంట్స్ బ్యానర్లు నిర్మిస్తున్నాయి",O O B-ORG I-ORG I-ORG O B-ORG I-ORG I-ORG O B-ORG I-ORG O O O O,O O O O O O O O O O O O O O O O
+లాలూ ప్రసాద్ యాదవ్ కుమార్తె మిసా భారతి కూడా పాటలిపుత్ర నియోజకవర్గంలో ఓటమి చెవిచూశారు .,B-PER I-PER I-PER O B-PER I-PER O B-LOC O O O O,O O O O O O O O O O O O
+"నేషనల్ సెంటర్ ఫర్ డిసీజ్ కంట్రోల్ , ఢిల్లీ",B-ORG I-ORG I-ORG I-ORG I-ORG O B-LOC,O O O O O O O
+స్విట్జర్లాండ్ కేంద్రంగా ఇది కార్యకలాపాలను సాగిస్తోంది .,B-LOC O O O O O,O O O O O O
+స్టైలిష్ స్టార్ అల్లు అర్జున్ ఈమధ్య వార్తల్లో బాగా నానారు .,O O B-PER I-PER O O O O O,O O O O O O O O O
+సెన్సార్ బోర్డు ఈ చిత్రానికి U / A సర్టిఫికెట్ జారీ చేసింది .,B-ORG I-ORG O O O O O O O O O,O O O O O O O O O O O
+దక్షిణ రైల్వే పలురైళ్లను రద్దు చేసింది .,B-ORG I-ORG O O O O,O O O O O O
+పాక్ అవమానంపై కంటతడి పెట్టిన సుష్మా స్వరాజ్,B-LOC O O O B-PER I-PER,O O O O O O
+ఈ హ్యాండ్సెట్ ఇండియాలో వచ్చే నెలలో ల్యాండింగ్ ఉంటుంది .,O O B-LOC O O O O O,O O O O O O O O
+వైట్హౌస్ను వీడిన అమెరికా అధ్యక్షుడు డొనాల్డ్ ట్రంప్,B-LOC O B-LOC O B-PER I-PER,O O O O O O
+"ఇవాళ కూడా రాజస్థాన్ , హిమాచల్ , ఉత్తరాఖండ్ , పంజాబ్ , హరియాణా , ఢిల్లీ , రాజస్థాన్ , యూపీల్లో భారీ వర్షాలు కురుస్తాయని పెద్ద పరిమాణంలో వడగళ్లు పడే అవకాశం ఉందని .",O O B-LOC O B-LOC O B-LOC O B-LOC O B-LOC O B-LOC O B-LOC O B-LOC O O O O O O O O O O,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+జనసేన పార్టీ అధినేత పవన్ కళ్యాణ్,B-ORG I-ORG O B-PER I-PER,O O O O O
+తమన్ ఈ చిత్రానికి స్వరాలు సమకూరుస్తున్నారు .,B-PER O O O O O,O O O O O O
+ఈ అరుదైన సంఘటన తమిళనాడులోని తిరుప్పతూర్లో చోటుచేసుకుంది .,O O O B-LOC B-LOC O O,O O O O O O O
+కర్ణాటకలో మాత్రం అలా జరగట్లేదు .,B-LOC O O O O,O O O O O
+న్యూఢిల్లీః ప్రభుత్వరంగంలోనిఒఎన్జిసి ముంబయి పోర్టుట్రస్టుకు రూ .,B-LOC O B-LOC O O O,O O O O O O
+సూపర్ స్టార్ మహేష్ బాబు హీరోగా వస్తోన్న భారీ చిత్రం సరిలేరు నీకెవ్వరు .,O O B-PER I-PER O O O O O O O,O O O O O O O O O O O
+"భారీ వర్షాలు , వరదలతో కేరళ సంద్రాన్ని తలపిస్తోంది .",O O O O B-LOC O O O,O O O O O O O O
+"తమిళనాడుః రాష్ట్రంలోని తిరునల్వేలి నుంచి బీహార్కు 1,140 మంది వలసకార్మికులతో ప్రత్యేక రైలు బయల్దేరింది .",B-LOC O O O B-LOC O O O O O O O,O O O O O O O O O O O O
+ఎస్వీబీసీ ఛైర్మన్ పదవికి పృథ్వీ రాజీనామా,B-ORG O O B-PER O,O O O O O
+"ఇదిలాఉండగా గోవా , అరుణాచల్ ప్రదేశ్ , సిక్కిం , మణిపూర్ , నాగాలాండ్ , మిజోరం పూర్తిగా గ్రీన్ జోన్లో ఉన్నాయి .",O B-LOC O B-LOC I-LOC O B-LOC O B-LOC O B-LOC O B-LOC O O O O O,O O O O O O O O O O O O O O O O O O
+జిల్లాలోని మండ పంచాయితీ ఈతమానుగూడ గ్రామంలో ఈ ఘటన జరిగింది .,O O O B-LOC O O O O O,O O O O O O O O O
+ఇక దేవి శ్రీ ప్రసాద్ మ్యూజిక్ ఇంప్రెస్ చేసింది .,O B-PER I-PER I-PER O O O O,O O O O O O O O
+"అలా మాజీ ప్రధానులు హెచ్డి దేవేగౌడ , ఐకే గుజ్రాల , పివి నరసింహరావులకు అప్పట్లోనే ఎస్పీజీ భద్రతను తొలగించారు .",O O O B-PER I-PER O B-PER I-PER O B-PER I-PER O O O O O,O O O O O O O O O O O O O O O O
+ఈ ఆకాశ హర్మ్యం బ్రిగేడ్ రోడ్డు - ఎం జీ రోడ్డు కూడలి నుంచి ఒకటిన్నర కిలోమీటర్ల దూరంలో విట్టల్ మాల్యా వీధి లో వుంది,O O B-LOC B-LOC I-LOC O B-LOC I-LOC I-LOC O O O O O B-LOC I-LOC O O O,O O O O O O O O O O O O O O O O O O O
+విండీస్ 20 ఓవర్లలో 8 వికెట్లకుగాను 173 పరుగుల వద్ద చేతెలెత్తేసింది .,B-ORG O O O O O O O O O,O O O O O O O O O O
+దీంతోపాటు కమల్ హాసన్ ` భారతీయుడు 2 ` లో నటిస్తుంది .,O B-PER I-PER O O O O O O O,O O O O O O O O O O
+"ఇది ఆంధ్ర ప్రదేశ్ , తెలంగాణ రాష్ట్రముల యొక్క రాష్ట్రపక్షి .",O B-LOC I-LOC O B-LOC O O O O,O O O O O O O O O
+స్మిత్ శతకం వృధా,B-PER O O,O O O
+దానిపై సుప్రీంకోర్టు ఈ నెల లోపు ప్రభుత్వ పిటిషన్పై సమాధానం కావాలని ప్రతివాదుల్ని కోరింది .,O B-ORG O O O O O O O O O O,O O O O O O O O O O O O
+బిజెపి 109 స్థానాల్లో విజయం సాధించింది .,B-ORG O O O O O,O O O O O O
+"కేంద్ర ఆరోగ్య శాఖ ఆదివారం వెల్లడించిన లెక్కల ప్రకారం గడిచిన 24 గంటల్లో దేశవ్యాప్తంగా రికార్డు స్థాయిలో 24,850వేల కొత్త కేసులు , 613 మరణాలు నమోదయ్యాయి",B-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O,O O O O O O O O O O O O O O O O O O O O
+"ఈ ధర్మాసనంలో న్యాయమూర్తులు జస్టిస్ ఎల్ఎన్ రావు , సూర్యకాంత్లు కూడా ఉన్నారు .",O O O O B-PER I-PER O O O O O,O O O O O O O O O O O
+ఈ సంఘటన రాజన్న సిరిసిల్ల జిల్లాలో కలకలం సృస్టించింది .,O O B-LOC I-LOC I-LOC O O O,O O O O O O O O
+"నితిన్ , రష్మిక మందన్న జంటగా నటించారు .",B-PER O B-PER I-PER O O O,O O O O O O O
+బీజేపీ జాతీయ అధ్యక్షుడిగా జేపీ నడ్డా ఏకగ్రీవ ఎన్నిక,B-ORG O O B-PER I-PER O O,O O O O O O O
+ఈ ఘటనలో నిందితుడు సురేశ్ కూడా 60 శాతం కాలిపోయాడు .,O O O B-PER O O O O O,O O O O O O O O O
+తర్వాత డేవిడ్ మిల్లర్ బరిలోకి దిగాడు .,O B-PER I-PER O O O,O O O O O O
+దీనితో బీజేపీ శ్రేణుల్లో తీవ్ర విషాదం అలుముకుంది .,O B-ORG O O O O O,O O O O O O O
+సీఏసీకి అంతగా పని ఉండదు .,B-ORG O O O O,O O O O O
+నేషనల్ వార్ మెమోరియల్,B-ORG I-ORG I-ORG,O O O
+గాయపడిన వారిని శ్రీనగర్కు తరలించారు .,O O B-LOC O O,O O O O O
+అమెరికన్ ఆటోమోటివ్ తయారీ సంస్థ అయిన ఫోర్డ్ తన 2020 ఎకోస్పోర్ట్ బిఎస్ - 6 శ్రేణి కాంపాక్ట్ ఎస్యూవీలను విడుదల చేసింది,B-LOC O O O O B-ORG O O O O O O O O O O O,O O O O O O O O O O O O O O O O O
+ఇది భారత్ విజయం .,O B-LOC O O,O O O O
+ఈ చిత్ర ప్రీ రిలీజ్ వేడుక హైదరాబాద్ లో గ్రాండ్ గా నిర్వహించారు .,O O O O O B-LOC O O O O O,O O O O O O O O O O O
+ఈ సినిమాను దిల్ రాజు డిస్ట్రిబ్యూట్ చేస్తున్నారు .,O O B-PER I-PER O O O,O O O O O O O
+"విజయ్ సేతుపతి , సుదీప్ , అమితాబ్ ల పాత్రలు హైలైట్ గా ఉంటాయట .",B-PER I-PER O B-PER O B-PER O O O O O O,O O O O O O O O O O O O
+"రిజర్వు ఆటగాళ్లుః జేమ్స్ బ్రాసీ , మాసోన్ క్రేన్ , సకీబ్ మహమూద్ , మాట్ పార్కిన్సన్ , ఒల్లీ రాబిన్సన్ , అమర్ విర్ది .",O O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O,O O O O O O O O O O O O O O O O O O O O
+ఈ మేరకు ట్రేడ్ ఎనలిస్టు తరణ్ ఆదర్శ్ ట్వీట్ చేశాడు .,O O O O B-PER I-PER O O O,O O O O O O O O O
+"టాటా మోటార్స్ , టాటా పవర్ కలిసి బెంగళూరు , ముంబై , పుణె , ఢిల్లీ , హైదరాబాద్ నగరాలలో 300 ఎలక్ట్రిక్ వాహన ఫాస్ట్ ఛార్జింగ్ లను ఏర్పాటు చేయడానికి కలిసి వచ్చాయి",B-ORG I-ORG O B-ORG I-ORG O B-LOC O B-LOC O B-LOC O B-LOC O B-LOC O O O O O O O O O O O,O O O O O O O O O O O O O O O O O O O O O O O O O O
+"ప్రధాని మోదీతోపాటు కేంద్ర మంత్రులు రాజ్నాథ్ సింగ్ , వెంకయ్య నాయుడు శుభాకాంక్షలు తెలిపారు .",O B-PER O O B-PER I-PER O B-PER I-PER O O O,O O O O O O O O O O O O
+"మరోవైపు ఇండోర్ , భోపాల్ , ఉజ్జయిని నగరాల్లో వ్యాధి సంక్రమణపై నిశిత నిఘా నిర్వహిస్తున్నారు .",O B-LOC O B-LOC O B-LOC O O O O O O O,O O O O O O O O O O O O O
+వాట్సాప్ యొక్క గ్రూప్ ఇన్విటేషన్ ఫీచర్ దీన్ని జాగ్రత్తగా చూసుకుంటుంది .,B-ORG O O O O O O O O,O O O O O O O O O
+ఈ సినిమాలో కూడా రస్మిక మడోనా హీరోయిన్ గా నటిస్తోంది .,O O O B-PER I-PER O O O O,O O O O O O O O O
+పాక్ అవమానంపై కంటతడి పెట్టిన సుష్మా స్వరాజ్,B-LOC O O O B-PER I-PER,O O O O O O
+కర్ణాటకః రాష్ట్ర ఆరోగ్యశాఖలోని కాంట్రాక్టు ఉద్యోగుల డిమాండ్ల పరిశీలనకు ముఖ్యమంత్రి అంగీకరించిన నేపథ్యంలో తమ సమ్మెపిలుపును వారు ఉపసంహరించుకున్నారు .,B-LOC B-ORG I-ORG O O O O O O O O O O O O,O O O O O O O O O O O O O O O
+Home > ప్రపంచం > డోనాల్డ్ ట్రంప్ కు మళ్ళీ చిర్రెత్తుకొచ్చింది .,O O O O B-PER I-PER O O O O,O O O O O O O O O O
+కాసేపటికి తేరుకున్నప్పటికీ అసౌకర్యంగా ఫీల్ కావడంతో ముఖ్యమంత్రి త్రివేంద్ర సింగ్ రావత్ బడ్జెట్ ప్రసంగాన్ని ముగించారు .,O O O O O O B-PER I-PER I-PER O O O O,O O O O O O O O O O O O O
+ఈ సినిమాలో అఖిల్ సరసన నిధి అగర్వాల్ కథానాయికగా నటిస్తోంది .,O O B-PER O B-PER I-PER O O O,O O O O O O O O O
+మైత్రీ మూవీ మేకర్స్ ఈ చిత్రాన్ని నిర్మించారు .,B-ORG I-ORG I-ORG O O O O,O O O O O O O
+ప్రత్యేక ప్రణాళిక అథారిటీ,B-ORG I-ORG I-ORG,O O O
+బాలీవుడ్ బ్యూటీ దీపికా పదుకొణే ప్రస్తుతం నటిస్తున్న చిత్రం ఛపాక్ .,O O B-PER I-PER O O O O O,O O O O O O O O O
+కాసేపటికి తేరుకున్నప్పటికీ అసౌకర్యంగా ఫీల్ కావడంతో ముఖ్యమంత్రి త్రివేంద్ర సింగ్ రావత్ బడ్జెట్ ప్రసంగాన్ని ముగించారు .,O O O O O O B-PER I-PER I-PER O O O O,O O O O O O O O O O O O O
+3 . 2020 నుండి ఇప్పటి వరకు లాక్ డౌన్ కాలంలో ప్రధాన మంత్రి కిసాన్ సమ్మాన్ నిధి ( పీఎం - కిసాన్ ) పథకం కింద సుమారు 9.55 కోట్ల రైతు కుటుంబాలకు లబ్ధి చేకూర్చారు . ఇప్పటివరకు రూ . 19100.77 కోట్లు విడుదలయ్యాయి,O O O O O O O O O O O B-ORG I-ORG I-ORG O B-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+గౌరవనీయులైన రాజు సుల్తాన్ ఖబూస్ బిన్ అల్ సైద్ తరపున ప్రధాన మంత్రికి శ్రీ యూసుఫ్ బిన్ అలావి బిన్ అబ్దుల్లా అభినందనలు తెలియజేశారు .,O O B-PER I-PER I-PER I-PER I-PER O O O O B-PER I-PER I-PER I-PER I-PER O O O,O O O O O O O O O O O O O O O O O O O
+"నిరంజన్ రెడ్డి , మాజీ మంత్రి సి . లక్ష్మారెడ్డి , ప్రభుత్వ ప్రధాన కార్యదర్శి సోమేశ్ కుమార్ , విద్యాశాఖ ప్రత్యేక ప్రధాన కార్యదర్శి చిత్రా రామచంద్రన్ తదితరులు పాల్గొన్నారు .",B-PER I-PER O O O B-PER I-PER I-PER O O O O B-PER I-PER O O O O O B-PER I-PER O O O,O O O O O O O O O O O O O O O O O O O O O O O O
+అది చూసి చాధా షాక్ అయ్యారు .,O O B-PER O O O,O O O O O O
+"అంతా విన్న పోలీసులు సురేశ్ , జయప్రదలకు కౌన్సెలింగ్ ఇచ్చి అనంతరం ఇంటికి పంపారు .",O O O B-PER O B-PER O O O O O O,O O O O O O O O O O O O
+"మిజోరంః సరిహద్దు గ్రామాల్లోని మరింతమంది నిరుపేదలకు ఆహార పదార్థాలు సరఫరా చేసేందుకు సరిహద్దు భద్రత నిర్వహణ బృందం , కోలాసిబ్ మిజోరం , 10 గ్రామ కార్యాచరణ బృందాలద్వారా బియ్యం , పప్పుదినుసులు , ఉప్పు , ఉల్లిపాయ , సోయాబీన్ , వంటనూనెలు తదితర ప్రధాన వస్తువులను పంపిణీ చేసింది .",B-LOC O O O O O O O O B-ORG I-ORG I-ORG I-ORG O B-LOC B-LOC O O O O O O O O O O O O O O O O O O O O O O,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+బీజేపీ నేత వినీత్ గోయెంకా గతేడాది మేలో ఈ పిటిషన్ను దాఖలు చేశారు .,B-ORG O B-PER I-PER O O O O O O O,O O O O O O O O O O O
+"సుశాంత్ , రుహనీ శర్మ జంటగా నటించిన చిత్రం",B-PER O B-PER I-PER O O O,O O O O O O O
+"పోలీసులు , క్లూస్ టీమ్ అక్కడికి చేరుకుని దర్యాప్తు చేస్తున్నారు .",B-ORG O B-ORG I-ORG O O O O O,O O O O O O O O O
+"ప్రధాని మోదీతోపాటు కేంద్ర మంత్రులు రాజ్నాథ్ సింగ్ , వెంకయ్య నాయుడు శుభాకాంక్షలు తెలిపారు .",O B-PER O O B-PER I-PER O B-PER I-PER O O O,O O O O O O O O O O O O
+త్రివిక్రమ్ శ్రీనివాస్ ఈసినిమాకు దర్శకత్వం వహించగా అనిరుథ్ రవిచంద్రన్ సంగీతం అందించారు .,B-PER I-PER O O O B-PER I-PER O O O,O O O O O O O O O O
+"సురేష్ ప్రొడక్షన్స్ సంస్థ , పీపుల్స్ మీడియా సంస్థలు సంయుక్తంగా ఈ మూవీని నిర్మిస్తున్నాయి .",B-ORG I-ORG I-ORG O B-ORG I-ORG I-ORG O O O O O,O O O O O O O O O O O O
+ఇండియన్ ఎయిర్ ఫోర్స్ వింగ్ కమాండర్ అభినందన్ వర్ధమాన్ క్షేమంగా తిరిగిరానున్నాడు .,B-ORG I-ORG I-ORG O O B-PER I-PER O O O,O O O O O O O O O O
+ిల్ రాజు నిర్మాతగా వ్యవహరిస్తున్నాడు .,B-PER I-PER O O O,O O O O O
+కాగా అజాజ్ ఖాన్ ఇలాంటి వివాదాల్లో ఇరుక్కోవడం కొత్తేమి కాదు .,O B-PER I-PER O O O O O O,O O O O O O O O O
+"టీమిండియా ఓపెనర్లకు శిఖర్ ధావన్ , రోహిత్ శర్మలు ఆచితూచి ఆడుతున్నారు .",B-LOC O B-PER I-PER O B-PER I-PER O O O,O O O O O O O O O O
+నిశాంక్ మాట్లాడుతూ ఉమ్మడి టాస్క్ఫోర్స్ను ఏర్పాటు చేయడం వల్ల విద్యా అర్హతపై పరస్పర గుర్తింపు సాధించే ప్రక్రియ వేగవంతం అవుతుందన్నారు .,B-PER O O O O O O O O O O O O O O O,O O O O O O O O O O O O O O O O
+మహారాష్ట్రలో శివసేన అధ్యక్షుడు ఉద్ధవ్ ఠాక్రే ముఖ్యమంత్రిగా ప్రమాణస్వీకారం చేసిన విషయం తెలిసిందే .,B-LOC B-ORG O B-PER I-PER O O O O O O,O O O O O O O O O O O
+రాష్ట్ర నీటిపారుదల శాఖ మంత్రి హరీష్రావు,O O O O B-PER,O O O O O
+ఘటనా స్థలానికి చేరకున్న రెండు ఎన్డీఆర్ఎఫ్ బృందాలు సహాయక చర్యలను చేపడుతున్నాయి .,O O O O B-ORG O O O O O,O O O O O O O O O O
+"మహాత్మా గాంధీ స్వరాజ్ భావన , గ్రామ స్వరాజ్ ఆధారంగా రూపొందినదని ఆయన గుర్తు చేసుకున్నారు .",B-PER I-PER O O O O O O O O O O O,O O O O O O O O O O O O O
+"ముంబై , పంజాబ్ , ఉత్తరప్రదేశ్ , మధ్యప్రదేశ్ల నుండి ప్రయాణించే 25 రైళ్ళు నిలిపివేయబడ్డాయి , దారి మళ్ళించ బడ్డాయి .",B-LOC O B-LOC O B-LOC O B-LOC O O O O O O O O O O,O O O O O O O O O O O O O O O O O
+ఇది కేవలం పల్నాడు ప్రాంత సమస్య మాత్రమే కాదు .,O O B-LOC O O O O O,O O O O O O O O
+బీజేపీ నాయకులు నీతివంతంగా ఉంటారు .,B-ORG O O O O,O O O O O
+హైదరాబాద్ః ఆంధ్రప్రదేశ్ ముఖ్యమంత్రి నారా చంద్రబాబు నాయుడు నోటుకు ఓటు వ్యవహారంలో సమస్యను తలకు తనంత తానుగా రుద్దుకున్నారా అనే చర్చ సాగుతోంది .,B-LOC B-LOC O B-PER I-PER I-PER O O O O O O O O O O O O,O O O O O O O O O O O O O O O O O O
+రాధాకృష్ణ ఈ సినిమాకు దర్శకత్వం వహిస్తున్నారు .,B-PER O O O O O,O O O O O O
+అంబోలి పోలీసులు ఈ కేసును ముంబై క్రైం బ్రాంచ్కు చెందిన యాంటీ ఎక్స్టోర్షన్ సెల్ ( ఏఈసి ) కి బదిలీ చేశారు .,B-LOC O O O B-LOC O O O B-ORG I-ORG I-ORG O B-ORG O O O O O,O O O O O O O O O O O O O O O O O O
+హిమాచల్ ప్రదేశ్ లోని మండీ లో జరిగిన రోడ్డు ప్రమాదం ఘటనలో ప్రాణనష్టం వాటిల్లడం పట్ల ప్రధాన మంత్రి శ్రీ నరేంద్ర మోదీ విచారాన్ని వ్యక్తం చేశారు .,B-LOC I-LOC O B-LOC O O O O O O O O O O O B-PER I-PER O O O O,O O O O O O O O O O O O O O O O O O O O O
